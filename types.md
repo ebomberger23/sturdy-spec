@@ -30,6 +30,9 @@ Composite types:
 - `type[{num}]`:
   An array of `num` `type`s. Unlike C, this doesn't get turned into a pointer when passed.
 
+- `const<type>`:
+  Variables of this type can only be assgined to once.
+
 - `struct<<name1 type1> <name2 type2> ...>`:
   A struct with member types `type1`, `type2`, ... . Members can be accessed with `var.name`.
 
