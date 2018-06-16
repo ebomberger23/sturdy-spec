@@ -23,6 +23,12 @@ Atomic types:
 - `uint{num}`:
   {num} bit unsigned integer.
 
+- `string`:
+  An (ASCII) string.
+
+- `ustring`:
+  A string where each character is a full unicode code point.
+
 Composite types:
 - `type*`:
   A pointer to a `type`.
